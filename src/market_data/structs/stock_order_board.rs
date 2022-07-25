@@ -1,8 +1,7 @@
 #![allow(dead_code)]
 
 use crate::market_data::traits::market_snapshot::MktSnapshot;
-use crate::market_data::traits::parser::NumberParser;
-use crate::market_data::traits::parser::StockTickerParser;
+use crate::market_data::traits::parser::{NumberParser, StockTickerParser};
 use chrono::prelude::{DateTime, Local};
 
 #[derive(Debug)]
